@@ -1,0 +1,22 @@
+{
+  "name": "noble-shopping-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOBLE2008/e-Commerce-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NOBLE2008/e-Commerce-Backend/issues"
+  },
+  "homepage": "https://github.com/NOBLE2008/e-Commerce-Backend#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
