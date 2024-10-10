@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 //Product Schema
-const ProductSchema = new mongoose.Schema({
+const productSchema = new mongoose.Schema({
   name: {
     type: String,
     max: [50, "Product name cannot exceed 50 characters"],
@@ -23,14 +23,15 @@ const ProductSchema = new mongoose.Schema({
     required: [true, "Product price is required"],
     min: [0, "Product price must be greater than or equal to 0"],
   },
-  discount: {
-    type: Number,
-    default: ["0"],
+  coupons: {
+    type: mongoose.Schema.ObjectId,
+    ref: "Coupons",
+    select: false,
   },
   currency: {
     type: String,
-    default: ["usd"],
+    default: "usd",
   },
 });
 
-export default mongoose.model("Products", ProductSchema);
+export default mongoose.model("Products", productSchema);
