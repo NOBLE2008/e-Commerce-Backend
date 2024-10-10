@@ -5,7 +5,10 @@ import app from "./index.js";
 dotenv.config();
 
 dbConnect(
-  `mongodb+srv://noblebj2008:${process.env.MONGODB_PASSWORD}@cluster0.1zq1a.mongodb.net/noble-shopping-database?retryWrites=true&w=majority&appName=Cluster0`
+  process.env.MONGODB_URI.replace(
+    "<password>",
+    process.env.MONGODB_PASSWORD
+  ).replace("<username>", process.env.MONGODB_USERNAME)
 );
 
 app.listen(3000, () => {
