@@ -37,3 +37,9 @@ export const getProducts = async (req, res) => {
   const products = await Products.find();
   res.status(200).json(products);
 };
+
+export const getProduct = async (req, res) => {
+  const { id } = req.params;
+  const product = await Products.findById(id);
+  res.status(200).json(product);
+};
