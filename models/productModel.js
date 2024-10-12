@@ -23,11 +23,13 @@ const productSchema = new mongoose.Schema({
     required: [true, "Product price is required"],
     min: [0, "Product price must be greater than or equal to 0"],
   },
-  coupons: {
-    type: mongoose.Schema.ObjectId,
-    ref: "Coupons",
-    select: false,
-  },
+  coupons: [
+    {
+      type: mongoose.Schema.ObjectId,
+      ref: "Coupons",
+      select: false,
+    },
+  ],
   currency: {
     type: String,
     default: "usd",

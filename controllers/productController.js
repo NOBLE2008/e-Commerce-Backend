@@ -1,15 +1,18 @@
-import Products from "../models/productModel.js"
+import Products from "../models/productModel.js";
 
+export const createProduct = async (req, res) => {
+  const { name, description, category, brand, price, coupons, currency } =
+    req.body;
+  const newProduct = await Products.create({
+    name,
+    description,
+    category,
+    brand,
+    price,
+    coupons,
+    currency,
+  });
+  res.status(201).json(newProduct);
+};
 
-export const addProduct = async (req, res) => {
-    await Products.create({
-        name: "Test Product",
-        description: "Test Product",
-        price: 100,
-    })
-    res.send("Product added successfully")
-}
-
-export const getProducts = async() => {
-    
-}
+export const getProducts = async () => {};
