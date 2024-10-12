@@ -2,16 +2,22 @@
   "extends": [
     "airbnb",
     "prettier",
-    "plugin:node/recommended",
-    "plugin:prettier/recommended",
-    "plugin:import/recommended"
+    "plugin:node/recommended"
   ],
   "plugins": [
-    "prettier",
-    "import"
+    "prettier"
   ],
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021, // Use the latest ECMAScript version
+    "sourceType": "module" // Allow using ES modules
+  },
   "rules": {
     "prettier/prettier": "off",
+    "import/extensions": "off",
     "spaced-comment": "off",
     "no-console": "off",
     "consistent-return": "off",
@@ -34,8 +40,6 @@
       {
         "argsIgnorePattern": "req|res|next|val"
       }
-    ],
-    "import/extensions": "off",
-    "import/no-extraneous-dependencies": "off"
+    ]
   }
 }
