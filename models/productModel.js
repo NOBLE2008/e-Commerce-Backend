@@ -4,11 +4,34 @@ import mongoose from "mongoose";
 const productSchema = new mongoose.Schema({
   name: {
     type: String,
-    max: [50, "Product name cannot exceed 50 characters"],
+    maxLength: [200, "Product name cannot exceed 50 characters"],
   },
   description: {
     type: String,
-    max: [300, "Product description cannot exceed 200 characters"],
+    maxLength: [1200, "Product description cannot exceed 1200 characters"],
+  },
+  quantity: {
+    type: Number,
+    default: 1,
+    min: [1, "Product quantity must be greater than or equal to 1"],
+  },
+  reviews: {
+    type: [
+      {
+        type: mongoose.Schema.ObjectId,
+        ref: "Reviews",
+      },
+    ],
+    default: [],
+  },
+  images: {
+    type: [
+      {
+        type: String,
+        maxLength: [200, "Image URL cannot exceed 200 characters"],
+      },
+    ],
+    default: ["https://via.placeholder.com/150"],
   },
   category: {
     type: mongoose.Schema.ObjectId,
@@ -23,17 +46,31 @@ const productSchema = new mongoose.Schema({
     required: [true, "Product price is required"],
     min: [0, "Product price must be greater than or equal to 0"],
   },
-  coupons: [
-    {
-      type: mongoose.Schema.ObjectId,
-      ref: "Coupons",
-      select: false,
-    },
-  ],
-  currency: {
-    type: String,
-    default: "usd",
+  coupons: {
+    type: [
+      {
+        type: mongoose.Schema.ObjectId,
+        ref: "Coupons",
+      },
+    ],
+    select: false,
   },
+  features: {
+    type: [
+      {
+        name: String,
+        image: String,
+      },
+    ],
+    default: [],
+  },
+});
+
+productSchema.pre("save", function (next) {
+  if (!this.images.length) {
+    this.images = ["https://via.placeholder.com/150"];
+  }
+  next();
 });
 
 export default mongoose.model("Products", productSchema);

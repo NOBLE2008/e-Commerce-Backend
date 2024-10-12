@@ -1,17 +1,39 @@
-import path, { dirname } from "path";
-import { fileURLToPath } from "url";
-
-import { readFile } from "fs/promises";
 import Products from "../models/productModel.js";
 
 export const createProduct = async (req, res) => {
-  const __filename = fileURLToPath(import.meta.url);
-
-  const __dirname = dirname(__filename);
-  const filePath = path.join(__dirname, "../data/dummyProducts.json");
-  const jsonData = await readFile(filePath, "utf-8");
-  const newProduct = await Products.create(JSON.parse(jsonData));
-  res.status(201).json(newProduct);
+  const {
+    name,
+    description,
+    category,
+    brand,
+    price,
+    coupons,
+    reviews,
+    features,
+    currency,
+    quantity,
+  } = req.body;
+  const newProduct = await Products.create({
+    name,
+    description,
+    category,
+    brand,
+    price,
+    features,
+    coupons,
+    currency,
+    quantity,
+    images: [],
+    reviews,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    // ...jsonData.products[0], // If you want to load data from a JSON file
+  });
+  const modifiedData = await Products.findById(newProduct._id);
+  res.status(201).json(modifiedData);
 };
 
-export const getProducts = async () => {};
+export const getProducts = async (req, res) => {
+  const products = await Products.find();
+  res.status(200).json(products);
+};

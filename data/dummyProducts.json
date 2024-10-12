@@ -3,6 +3,7 @@
     "name": "IdeaPad Pro 5 | 16 inch 2K Laptop | AMD Ryzen 5 8645HS | 16GB RAM | 512GB SSD | NVIDIA GeForce RTX 3050 | Windows 11 Home | Arctic Grey",
     "description": "The IdeaPad Pro 5 offers high-end performance with an AMD Ryzen 5 processor and NVIDIA GeForce RTX 3050 graphics card. Equipped with 16GB of RAM and a 512GB SSD, this laptop provides fast speeds and ample storage. Whether you're gaming, editing, or multitasking, the 16-inch 2K display delivers stunning visuals. Its lightweight design and Arctic Grey color make it both portable and stylish. Additionally, it comes with Windows 11 Home, offering a modern user experience. With long battery life and high-resolution support, it's ideal for both work and entertainment needs.",
     "category": "652aebc2cde2a200b9a871af",
+    "reviews": "652aebd7cde2a200b9a871b1",
     "brand": "652aebd7cde2a200b9a871b1",
     "price": 1299.99,
     "coupons": "652aeffbcde2a200b9a871b5",
@@ -14,6 +15,7 @@
     "category": "652aebc2cde2a200b9a871af",
     "brand": "652aebd7cde2a200b9a871b2",
     "price": 1799.99,
+    "images": "https://example.com/image1.jpg",
     "coupons": "652aeffbcde2a200b9a871b6",
     "currency": "USD"
   },
@@ -23,6 +25,7 @@
     "category": "652aebd2cde2a200b9a871b0",
     "brand": "652aebd7cde2a200b9a871b3",
     "price": 2999.99,
+    "images": "https://example.com/image1.jpg",
     "coupons": "652aeffbcde2a200b9a871b7",
     "currency": "USD"
   },
@@ -30,6 +33,7 @@
     "name": "Sony Alpha A7 IV | 33MP Full-Frame Mirrorless Camera | 4K Video Recording | 5-Axis Stabilization | Fast Autofocus | Black",
     "description": "The Sony Alpha A7 IV is a powerful full-frame mirrorless camera designed for both photography and videography professionals. Featuring a 33MP sensor, it captures stunning images with incredible detail and dynamic range. Its 5-axis image stabilization ensures that your shots remain sharp even in challenging conditions. The camera supports 4K video recording at 60fps, making it a great tool for content creators and filmmakers. With its fast autofocus and advanced subject tracking, you'll never miss a shot. Its lightweight and compact design make it perfect for travel, while its professional-grade features set it apart from the competition.",
     "category": "652aebd2cde2a200b9a871b0",
+    "images": "https://example.com/image5.jpg",
     "brand": "652aebd7cde2a200b9a871b4",
     "price": 2499.99,
     "coupons": "652aeffbcde2a200b9a871b8",
@@ -39,6 +43,7 @@
     "name": "Apple MacBook Pro 14 | M2 Pro Chip | 14 inch Retina Display | 16GB RAM | 512GB SSD | Space Gray | Magic Keyboard",
     "description": "The Apple MacBook Pro 14 with the M2 Pro Chip is a powerhouse designed for professionals. The M2 Pro chip provides blazing-fast performance for video editing, coding, and multitasking. With 16GB of RAM and a 512GB SSD, you get plenty of speed and storage for all your applications. The 14-inch Retina display offers vibrant colors and high resolution, perfect for creative work. Its slim design and Space Gray finish make it portable and stylish, while the Magic Keyboard provides a comfortable typing experience. Whether you’re on the go or working from home, this MacBook Pro is built for productivity.",
     "category": "652aebd2cde2a200b9a871b0",
+    "images": "https://example.com/image52.jpg",
     "brand": "652aebd7cde2a200b9a871b1",
     "price": 2199.99,
     "coupons": "652aeffbcde2a200b9a871b9",
@@ -50,6 +55,7 @@
     "category": "652aebc2cde2a200b9a871af",
     "brand": "652aebd7cde2a200b9a871b3",
     "price": 329.99,
+    "images": "https://example.com/image55.jpg",
     "coupons": "652aeffbcde2a200b9a871b6",
     "currency": "USD"
   },
@@ -58,6 +64,7 @@
     "description": "The Samsung Odyssey Neo G9 is the ultimate gaming monitor with a massive 49-inch curved display that immerses you in every scene. Featuring QLED technology, this monitor delivers deep blacks, bright whites, and stunning colors. With a 5120x1440 Dual QHD resolution and a 240Hz refresh rate, you'll experience incredibly smooth and responsive gameplay. Quantum HDR2000 enhances the dynamic range, offering richer visuals. Whether you're playing competitive games or watching movies, this monitor is designed for the best performance. Its sleek white design and futuristic look make it a great addition to any gaming setup.",
     "category": "652aebc2cde2a200b9a871af",
     "brand": "652aebd7cde2a200b9a871b2",
+    "images": "https://example.com/image9.jpg",
     "price": 2299.99,
     "coupons": "652aeffbcde2a200b9a871b5",
     "currency": "USD"
@@ -68,6 +75,7 @@
     "category": "652aebd2cde2a200b9a871b0",
     "brand": "652aebd7cde2a200b9a871b3",
     "price": 1199.99,
+    "images": "https://example.com/image58.jpg",
     "coupons": "652aeffbcde2a200b9a871b9",
     "currency": "USD"
   },
@@ -76,6 +84,7 @@
     "description": "The Dell XPS 17 is a premium laptop designed for professionals who need power and performance. Featuring a 17-inch 4K UHD+ touch display, it provides crystal-clear visuals and a large workspace for multitasking. Powered by the Intel i9 13900HK processor and NVIDIA RTX 4070 graphics, this laptop handles demanding tasks such as video editing and 3D rendering with ease. The 32GB of RAM and 1TB SSD ensure fast and responsive performance. Its sleek platinum silver design and lightweight form make it portable without compromising on power. Perfect for creators, designers, and anyone who needs a top-tier machine.",
     "category": "652aebc2cde2a200b9a871af",
     "brand": "652aebd7cde2a200b9a871b2",
+    "images": "https://example.com/image12.jpg",
     "price": 3499.99,
     "coupons": "652aeffbcde2a200b9a871b5",
     "currency": "USD"
@@ -84,6 +93,7 @@
     "name": "Fitbit Sense 2 | Advanced Health & Fitness Smartwatch | ECG, EDA, Heart Rate, Sleep Tracking | 6+ Day Battery | Lunar White/Soft Gold",
     "description": "The Fitbit Sense 2 is the most advanced health and fitness smartwatch from Fitbit, offering a wide array of features to help you stay on top of your wellness. With ECG, EDA, and heart rate monitoring, it provides insights into your heart health and stress levels. Sleep tracking helps you optimize your rest, while built-in GPS allows you to track outdoor activities accurately. The 6+ day battery life ensures you stay connected without needing frequent charges. Its sleek Lunar White/Soft Gold design makes it stylish for everyday wear, and it's compatible with both Android and iOS.",
     "category": "652aebd2cde2a200b9a871b0",
+    "images": "https://example.com/image83.jpg",
     "brand": "652aebd7cde2a200b9a871b1",
     "price": 299.99,
     "coupons": "652aeffbcde2a200b9a871b8",
@@ -94,6 +104,7 @@
     "description": "The Microsoft Surface Pro 9 is a versatile 2-in-1 device that combines the power of a laptop with the flexibility of a tablet. The 13-inch display with PixelSense technology offers stunning visuals, making it perfect for both creative work and productivity. Powered by an Intel Evo i7 processor, 16GB RAM, and a 512GB SSD, it delivers fast performance for all your tasks. The Platinum color adds a premium feel, and its lightweight design makes it easy to carry wherever you go. With Windows 11 Pro, you'll have the latest features and enhanced security for work and play.",
     "category": "652aebd2cde2a200b9a871b0",
     "brand": "652aebd7cde2a200b9a871b4",
+    "images": "https://example.com/image16.jpg",
     "price": 1899.99,
     "coupons": "652aeffbcde2a200b9a871b9",
     "currency": "USD"
@@ -104,6 +115,7 @@
     "category": "652aebd2cde2a200b9a871b0",
     "brand": "652aebd7cde2a200b9a871b3",
     "price": 3899.99,
+    "images": "https://example.com/image22.jpg",
     "coupons": "652aeffbcde2a200b9a871b7",
     "currency": "USD"
   },
@@ -111,6 +123,7 @@
     "name": "Sony PlayStation 5 | 825GB SSD Console | Ultra HD Blu-ray | Ray Tracing | 8K Output | 3D Audio Technology | DualSense Wireless Controller | White",
     "description": "The Sony PlayStation 5 delivers next-gen gaming experiences with breathtaking graphics and lightning-fast load times. With an 825GB SSD, you'll experience near-instantaneous load times, making your gaming sessions smoother. The PS5 supports 4K gaming at up to 120fps, with the potential for 8K output for future games. Ray tracing brings realistic lighting and shadows to your games, while 3D Audio technology enhances the immersive experience. The DualSense wireless controller provides haptic feedback and adaptive triggers for more interactive gameplay. Its sleek white design is a perfect fit for any modern living room.",
     "category": "652aebc2cde2a200b9a871af",
+    "images": "https://example.com/image19.jpg",
     "brand": "652aebd7cde2a200b9a871b2",
     "price": 499.99,
     "coupons": "652aeffbcde2a200b9a871b5",
